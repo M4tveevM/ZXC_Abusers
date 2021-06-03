@@ -25,6 +25,10 @@ h2{
 	text-align: center;
 }
 
+.logo{
+	width: 50px;
+	height: 50px;
+}
 .header {
 
 	background-image: url(img/background.jpg)  ;
@@ -34,6 +38,7 @@ h2{
 }
 .header h2{
 	margin-left: 10px;
+	padding-top: 10px;
 }
 .menu{
 	margin-top: 8px;
@@ -116,6 +121,7 @@ h2{
 .feedback{
 	padding-top: 100px;
 	background-color: black;
+	padding-bottom: 50px;
 }
 .feedback h1{
 	color: #95d9fb;
@@ -124,4 +130,20 @@ h2{
 .feedback p{
 	color: #e0413b;
 	font-size: 20px;
+}
+
+#feedback__submit{
+	margin-top: 23px;
+	max-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* 4 экран */
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 150px;
 }
