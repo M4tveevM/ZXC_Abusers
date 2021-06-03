@@ -1,29 +1,164 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimal-ui, viewport-fit=cover">
-    <meta name="description" content="#">
-    <meta name="author" content="m4tveevm">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-itunes-app" content="app-id=">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="format-detection" content="address=no">
-    <link rel="apple-touch-icon" href="#">
-    <meta name="apple-mobile-web-app-title" content="#">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>#</title>
+	<meta charset="UTF8">
+	<title>MySite</title>
+	 <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	 <link rel="stylesheet" href="bootstrap.min.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img id="img-pateto" src="img/kart.jpg" alt="Картошка домашняя, очень вкусная!">
-        <p class="info">Картофель, или Паслён Клубненосный</p>
-    </div>
-<!--script-->
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<header id="header" class="header">
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-lg-3 d-flex">
+					 <img src="img/logo.png" alt="logo" class="logo"><h2>Логитип</h2>
+				</div>
+				<div class="col-lg-6">
+					<nav>
+					  <ul class="menu d-flex ">
+                            <li class="menu__item">
+                                <a href="#">
+                                    Преимущества
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="gal.html">
+                                    Галерея
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="offer animated fadeInLeft">
+						<h1 class="offer__title">
+							Сайт-визитка
+						</h1>
+					</div>	
+				<div class="offer_intro">
+					Лучшее решение для бизнеса и личного использования
+				</div>
+				<p class="offer__text">
+					– одна или несколько страниц в интернете,<br> расположенных на одном доменном имени,<br> предоставляющая общую информацию о владельце,<br> основной перечень услуг, товаров, контактные данные<br> и раздел с ответами на основные вопросы
+				</p>
+				<ul class="icons d-flex">
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-apple"></i>
+						</a>
+					</li>
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-android"></i>
+						</a>
+					</li>
+					<li class="icons__item">
+						<a href="#">
+							<i class="fab fa-windows"></i>
+						</a>
+					</li>
+				</ul>
+				</div>
+				<div class="col-lg-5 ml-auto">
+					<img src="img/ipad.png" class="ipad" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="interesting" class="interesting">
+		<div class="container">
+			<div class="text-center">
+				<h1>Характеристики</h1>
+				<p>В этом разделе мы расскажем вам, основные характеристики даного <br>сайта-визитки</p>
+			</div>
+			<div class="row">
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="fas fa-tablet-alt"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Адаптивность</h4>
+						<p>Сайт подходит под любое <br> устройство и расширение<br> экрана.</p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-lemon"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Все элементы в PSD</h4>
+						<p>Удобный для верстки сайт. Все<br> элементы есть в PSD формате. </p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-folder"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Потрясающие иконки</h4>
+						<p>В приложени к файлу можно<br> найти все необходимые<br> иконки. </p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="fas fa-code"></i>
+					</div>
+					<div class="icon__info">
+						<h4>HTML & CSS</h4>
+						<p>Сайт легко сверстать с<br> помощью HTML и CSS </p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-envelope"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Обратная связь</h4>
+						<p>Сайт имеет раздел с обртаной<br> связью.</p>
+					</div>
+				</div>
+				<div class="row short-card col-lg-4">
+					<div class="icon col-sm-3">
+						<i class="far fa-bookmark"></i>
+					</div>
+					<div class="icon__info">
+						<h4>Интресно верстать</h4>
+						<p>Сайт имеет элементы,<br> которые будет интересно верстать.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+	<section id="feedback" class="feedback">
+		<div class="container">
+			<div class="text-center">
+				<h1>Свяжитесь с нами</h1>
+				<p>Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</p>
+			</div>
+
+        </div>
+	</section>
+
+
+
+
+
+
+
+	
+
+	<footer id="footer" class="footer">
+		<div class="container">
+		</div>
+	</footer>
 </body>
 </html>

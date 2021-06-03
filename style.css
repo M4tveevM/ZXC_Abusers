@@ -1,0 +1,127 @@
+/*Осн.стили для всех блоков*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+/* 1 экран */
+
+h1,h2,h3,h4{
+	font-weight: 700;
+	color:black;
+}
+h3{
+	font-weight: 400;
+}
+h2{
+	text-align: center;
+}
+
+.header {
+
+	background-image: url(img/background.jpg)  ;
+	background-repeat: no-repeat;
+	background-size: 100% ; 
+	padding: 10px;
+}
+.header h2{
+	margin-left: 10px;
+}
+.menu{
+	margin-top: 8px;
+}
+
+.menu__item{
+	margin:  0 57px;
+}
+.menu__item a{
+	font-size: 22px;
+	font-weight: 700;
+	color: black;
+}
+
+.offer{
+	margin-top: 117px;
+}
+
+.offer__title{
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+.offer__intro{
+	font-size: 20px;
+	line-height: 1.3rem;
+}
+
+.offer__text{
+	font-size: 16px;
+	margin-top: 15px;
+	color: #555555;
+}
+
+.icons__item{
+	margin-right: 30px;
+}
+
+.icons__item a{
+	color: black;
+	font-size: 42px;
+	transition: all 0.3s ease;
+}
+
+.icons__item a:hover{
+	color: #ff4B00;
+	text-decoration: none;
+}
+
+
+.ipad{
+	display: block;
+	margin: 60px auto 0;
+}
+
+/* 2 экран */
+
+.interesting{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.interesting .text-center{
+	margin-bottom: 40px;
+}
+
+.icon i{
+	font-size: 40px;
+}
+.icon__info h4{
+	font-size: 22px;
+}
+.icon__info p{
+	font-size: 16px;
+	color: #898989;
+}
+
+/* 3 экран */
+
+.feedback{
+	padding-top: 100px;
+	background-color: black;
+}
+.feedback h1{
+	color: #95d9fb;
+	font-size: 32px;
+}
+.feedback p{
+	color: #e0413b;
+	font-size: 20px;
+}
