@@ -22,6 +22,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Fonts and CSS -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">  
@@ -72,32 +73,38 @@
     <section id="cups">
       <div class="container">
         <h1>Наши кубки</h1>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <div class="card text-white bg-dark" style="width: 18rem;">  
-              <img class="card-img-top" src="img/cup1.png" alt="Cup 1">
-              <div class="card-body">
-                <p class="card-text">Данный кубок наша команда получила на буткемпе.</p>
-              </div>  
+          <div class="row justify-content-around">
+            <div class="col-12 col-md-5 col-lg-3">
+              <div class="cups_card card text-white bg-dark" style="width: 18rem;">  
+                <img class="card-img-top" src="img/cup1.png" alt="Cup 1">
+                <div class="card-body">
+                  <p class="card-text">Данный кубок наша команда получила на буткемпе.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3">
+              <div class="cups_card card text-white bg-dark" style="width: 18rem;">  
+                <img class="card-img-top" src="img/cup2.png" style="width: 75%" alt="Cup 2">
+                <div class="card-body">
+                  <p class="card-text">Данный кубок наша команда получила на буткемпе.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3">
+              <div class="cups_card card text-white bg-dark" style="width: 18rem;">  
+                <img class="card-img-top" src="img/cup2.png" style="width: 75%" alt="Cup 2">
+                <div class="card-body">
+                  <p class="card-text">Данный кубок наша команда получила на буткемпе.</p>
+                </div>  
+              </div>
             </div>
           </div>
-          <div class="col-1"></div>
-          <div class="col-5">
-            <div class="card text-white bg-dark" style="width: 18rem;">  
-              <img class="card-img-top" src="img/cup2.png" style="width: 75%" alt="Cup 2">
-              <div class="card-body">
-                <p class="card-text">Данный кубок наша команда получила на буткемпе.</p>
-              </div>  
-            </div>
-          </div>
-        </div>
       </div>
     </section>
     <section id="replays">
       <div class="container">
         <h1>Наши реплеи матчей:</h1>
-        <div class="row">
+        <!-- <div class="row">
           <div class="replay-yt col-3">
             <iframe src="https://www.youtube.com/embed/_Ncy_sleaaY" allowfullscreen></iframe>
           </div>
@@ -107,15 +114,15 @@
           <div class="replay-yt col-3">
             <iframe src="https://www.youtube.com/embed/_Ncy_sleaaY" allowfullscreen></iframe>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
-  <footer class="footer bg-dark">
-    <div class="container">
-      <div class="text-center">
+  <footer class="bg-dark">
+    <div class="text-center">
+      <div class="container">
         <p>Сайт ZXC Abusers © - киберспорт</p>
-        <p>Сайт спроектирован и свёрстан веб-студией <a href="http://updaing.space/">UpdatingSpace</a></p>
+        <p>Сайт спроектирован и свёрстан веб-студией <br> <a class="footer_breand" href="https://updating.space">UpdatingSpace</a></p>    
       </div>
     </div>
   </footer>
